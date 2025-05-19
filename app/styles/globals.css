@@ -126,3 +126,6 @@ a {
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.custom-abb{background:url(img/bg.jpg) center no-repeat;background-size:100% 100%;}
+.custom-full{position:fixed;top:50px;width:500px;height:500px;right:500px;background:#f00;}

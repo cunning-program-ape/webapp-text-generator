@@ -473,7 +473,7 @@ const TextGeneration = () => {
     <>
       <div className={cn(isPC && 'flex', 'h-screen bg-gray-50')}>
         {/* Left */}
-        <div className={cn(isPC ? 'w-[600px] max-w-[50%] p-8' : 'p-4', 'shrink-0 relative flex flex-col pb-10 h-full border-r border-gray-100 bg-white')}>
+        <div className={cn(isPC ? 'w-[600px] max-w-[50%] p-8' : 'p-4', 'shrink-0 relative flex flex-col pb-10 h-full border-r border-gray-100 bg-black custom-abb')}>
           <div className='mb-6'>
             <div className='flex justify-between items-center'>
               <div className='flex items-center space-x-3'>
@@ -546,7 +546,7 @@ const TextGeneration = () => {
 
         {/* Result */}
         {isPC && (
-          <div className='grow h-full'>
+          <div className='grow h-full custom-full'>
             {renderResWrap}
           </div>
         )}
